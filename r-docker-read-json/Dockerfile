@@ -6,7 +6,8 @@ RUN mkdir /home/r-env
 RUN mkdir /home/r-env/input
 
 # Install R dependencies
-RUN R -e "install.packages('rjson')"
+#RUN R -e "install.packages('rjson')"
+RUN ["R", "-e", "install.packages('rjson')"]
 
 # Copy R script and data to the container
 COPY read_json.R /home/r-env/read_json.R
