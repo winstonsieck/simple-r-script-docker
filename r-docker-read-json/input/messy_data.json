@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "dept": "IT",
+      "age": 29,
+      "sport": ""
+    },
+    {
+      "id": 2,
+      "dept": "IT",
+      "age": null,
+      "sport": "hockey"
+    },
+    {
+      "id": "",
+      "dept": "IT",
+      "age": 29,
+      "sport": "hockey"
+    },
+    {
+      "id": 4,
+      "dept": null,
+      "age": 29,
+      "sport": "softball"
+    }
+  ]
