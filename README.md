@@ -12,7 +12,7 @@ Each folder includes a very basic example package that builds off of the [rocker
 
 -   build and run as described in the folder's Dockerfile
 
-As mentioned on the package page, you can run R interactively with:
+As mentioned on the r-base hub page, you can run R interactively with:
 
 `docker run --rm -it rocker/r-base`
 
