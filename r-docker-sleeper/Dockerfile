@@ -1,5 +1,5 @@
 ## Show command and entrypoint
-## default mimics cmd line: docker run rocker/r-base sleep 10
+## default mimics cmd line: docker run -d rocker/r-base sleep 10
 ## code:
     FROM rocker/r-base
     ENTRYPOINT ["sleep"]
