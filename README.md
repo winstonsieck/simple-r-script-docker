@@ -22,10 +22,10 @@ The examples here are to get started running R scripts inside containers, progra
 
 2)  r-docker-hello: Fires up R and returns "hello world." Shows how to make a directory, copy an R script into a container, and run the script - with json format used for the command.
 
-3)  r-docker-read-json: Reads a json file into R and convert to data frame for further analysis (here just informing user that it worked). Dockerfile installs an R package, and copies script and input data files into the container.
+3)  r-docker-read-json: Reads a json file into R and converts to data frame for further analysis (here just informing user that it worked). Dockerfile installs an R package, and copies script and input data files into the container.
 
-4)  r-docker-write: Generates some random data and save out as a csv. Base Docker behavior is that container data is lost when container is done. The Dockerfile here gives a run command to save data in external directory.
+4)  r-docker-write: Generates some random data and saves out as a csv. Base Docker behavior is that container data is lost when container is done. The Dockerfile here gives a run command to save data in external directory.
 
 5)  r-docker-clean: Reads in a messy json file, cleans and converts to data frame, then saves as a csv in an external directory. Includes a compose.yaml file to simplify the build/run command.
 
-If needed, you can get a VM with Docker up and running pretty easily with this [Digital Ocean setup](https://marketplace.digitalocean.com/apps/docker "Docker Droplet"). Posit recommends 2 cores and 4G memory for testing/sandboxing. This [guidance](https://support.posit.co/hc/en-us/articles/115002344588-Configuration-and-sizing-recommendations) is for Posit products, but requirement "depends mostly on R."
+If needed, you can get a VM with Docker up and running pretty easily with this [Digital Ocean setup](https://marketplace.digitalocean.com/apps/docker "Docker Droplet"). Posit recommends 2 cores and 4G memory for testing/sandboxing. The [guidance](https://support.posit.co/hc/en-us/articles/115002344588-Configuration-and-sizing-recommendations) is for Posit products, but requirement "depends mostly on R."
