@@ -11,7 +11,7 @@ RUN ["R", "-e", "install.packages('rjson')"]
 
 # Copy R script and data to the container
 COPY read_json.R /home/r-env/read_json.R
-COPY input/messy_data.json /home/r-env/input/messy_data.json
+COPY input/sample_data.json /home/r-env/input/sample_data.json
 
 # Run the script using JSON format
 CMD ["R", "-e", "source('/home/r-env/read_json.R')"]

@@ -3,23 +3,23 @@
       "id": 1,
       "dept": "IT",
       "age": 29,
-      "sport": ""
+      "sport": "softball"
     },
     {
       "id": 2,
       "dept": "IT",
-      "age": null,
+      "age": 30,
       "sport": "hockey"
     },
     {
-      "id": "",
+      "id": "3",
       "dept": "IT",
       "age": 29,
       "sport": "hockey"
     },
     {
       "id": 4,
-      "dept": null,
+      "dept": "Acc",
       "age": 29,
       "sport": "softball"
     }

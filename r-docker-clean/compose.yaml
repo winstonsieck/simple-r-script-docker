@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  cleandata:
+  cleandat:
     build: .
     volumes:
       - /root/my-r-data:/home/r-env/output
