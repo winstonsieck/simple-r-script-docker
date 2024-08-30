@@ -13,5 +13,7 @@ CMD ["R", "-e", "source('/home/r-env/write_csv.R')"]
 
 # to execute:
     # docker build -t r-docker-write .
-    # (data lost with container) docker run r-docker-write
-    # docker run -v /root/my-r-data:/home/r-env/output r-docker-write
+    # 1-data lost with container: 
+    #   docker run r-docker-write
+    # 2-data saved in my-r-data
+    #   docker run -v /root/my-r-data:/home/r-env/output r-docker-write
