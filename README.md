@@ -2,7 +2,7 @@
 
 Build and run docker images with these simple example R scripts
 
-Each folder includes a very basic example package that is based off of the [rocker/r-base image](https://hub.docker.com/r/rocker/r-base) on docker hub. To get started:
+Each folder includes a very basic example package that is builds off of the [rocker/r-base image](https://hub.docker.com/r/rocker/r-base) on docker hub. To get started:
 
 -   upload the folder with desired example to a docker supported server (see below for one setup)
 
